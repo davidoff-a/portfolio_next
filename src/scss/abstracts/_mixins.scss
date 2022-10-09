@@ -1,0 +1,6 @@
+@mixin m-text($fsize: 16px, $fcolor: var(--font-color), $ffamily: var(--main-font)){
+  @extend %text;
+  font-size: $fsize;
+  color: $fcolor;
+  font-family: $ffamily;
+}

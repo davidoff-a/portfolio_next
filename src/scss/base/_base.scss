@@ -1,0 +1,24 @@
+
+.container{
+  max-width: 975px;
+  min-width: 320px;
+  margin: 0 auto;
+  &_wide{
+    max-width: 1310px;
+  }
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section{
+  padding: 88px 0 99px;
+  min-height: 700px;
+  background-color: var(--bg-main-color);
+  &:nth-child(2n+1){
+    background-color: var(--bg-sec-color);
+  }
+}

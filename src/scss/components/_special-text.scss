@@ -1,0 +1,8 @@
+.special-text{
+  @include m-text($fsize:36px, $ffamily:var(--ac-font), $fcolor: var(--ac-color));
+}
+
+.title{
+  @include m-text($fsize: 24px);
+  text-transform: uppercase;
+}

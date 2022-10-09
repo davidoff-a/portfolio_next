@@ -1,0 +1,32 @@
+.work {
+  // .work__menu
+  &__menu {
+    width: 460px;
+    margin: 0 auto;
+  }
+
+  // .work__slider
+  &__slider {
+  }
+}
+
+
+
+.slider {
+  // .slider__wrapper
+  &__wrapper {
+  }
+
+  // .slider__controls
+  &__controls {
+  }
+}
+
+.dots {
+  // .dots__item
+  &__item {
+    // .dots__item_active
+    &_active {
+    }
+  }
+}

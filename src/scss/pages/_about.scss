@@ -1,0 +1,37 @@
+.about {
+  height: 634px;
+  padding: 96px 0 117px;
+
+  // .about__portrait
+  &__portrait {
+    width: 330px;
+    height: 420px;
+    border-radius: 20px;
+    background: #c4c4c4;
+    // .about__portrait_twisted
+    &_twisted {
+      background: rgba(196, 196, 196, 0.25);
+      transform: rotate(-7.17deg);
+    }
+  }
+
+  // .about__text
+  &__text {
+    width: 570px;
+  }
+
+  // .about__descr
+  &__descr {
+    @include m-text;
+  }
+
+  &__block{
+    margin-bottom: 50px;
+  }
+}
+.skills {
+  width: 473px;
+  height: 94px;
+  flex-wrap: wrap;
+}
+

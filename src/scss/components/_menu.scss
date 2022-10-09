@@ -1,0 +1,21 @@
+.menu{
+  &__item{}
+  &__link{
+    @include m-text;
+    text-transform: uppercase;
+    position: relative;
+    &:hover, &_active{
+      &:before{
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 3px;
+        width: 100%;
+        min-width: 46px;
+        background-color: var(--ac-color);
+      }
+    }
+  }
+}

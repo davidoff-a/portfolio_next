@@ -1,0 +1,29 @@
+.slider {
+
+  // .slider__wrapper
+  &__wrapper {
+  }
+
+  // .slider__controls
+  &__controls {
+
+  }
+}
+
+.works {
+}
+
+.dots {
+  width: 60px;
+  height: 10px;
+  // .dots__item
+  &__item {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    // .dots__item_active
+    &_active {
+      background: var(--ac-color);
+    }
+  }
+}
