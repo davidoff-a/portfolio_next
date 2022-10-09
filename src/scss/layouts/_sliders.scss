@@ -1,5 +1,8 @@
 .slider {
-
+display: grid;
+  grid-template: 1fr 10px / 100%;
+  row-gap: 50px;
+  justify-content: center;
   // .slider__wrapper
   &__wrapper {
   }
@@ -10,10 +13,8 @@
   }
 }
 
-.works {
-}
-
 .dots {
+  margin: 0 auto;
   width: 60px;
   height: 10px;
   // .dots__item
@@ -21,6 +22,7 @@
     width: 10px;
     height: 10px;
     background: rgba(255, 255, 255, 0.25);
+    border-radius: 100%;
     // .dots__item_active
     &_active {
       background: var(--ac-color);

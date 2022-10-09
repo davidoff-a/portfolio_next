@@ -6,27 +6,17 @@
   }
 
   // .work__slider
-  &__slider {
-  }
-}
-
-
-
-.slider {
-  // .slider__wrapper
-  &__wrapper {
-  }
-
-  // .slider__controls
-  &__controls {
-  }
-}
-
-.dots {
-  // .dots__item
-  &__item {
-    // .dots__item_active
-    &_active {
+  &-slider {
+    margin-top: 44px;
+    display: grid;
+    grid-template: repeat(2, 150px) / repeat(auto-fill, minmax(200px, 1fr));
+    column-gap: 40px;
+    row-gap: 30px;
+    &__item{
+      width: 200px;
+      height: 150px;
+      border-radius: 20px;
+      background: #c4c4c4;
     }
   }
 }

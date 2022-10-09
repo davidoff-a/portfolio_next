@@ -167,6 +167,27 @@ section:nth-child(2n+1) {
   border-radius: 100%;
 }
 
+.slider {
+  display: grid;
+  grid-template: 1fr 10px/100%;
+  row-gap: 50px;
+  justify-content: center;
+}
+.dots {
+  margin: 0 auto;
+  width: 60px;
+  height: 10px;
+}
+.dots__item {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+}
+.dots__item_active {
+  background: var(--ac-color);
+}
+
 .person {
   height: calc(100vh - 90px);
   position: relative;
@@ -236,6 +257,19 @@ section:nth-child(2n+1) {
 .work__menu {
   width: 460px;
   margin: 0 auto;
+}
+.work-slider {
+  margin-top: 44px;
+  display: grid;
+  grid-template: repeat(2, 150px)/repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 40px;
+  row-gap: 30px;
+}
+.work-slider__item {
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  background: #c4c4c4;
 }
 
 /*# sourceMappingURL=style.css.map */
