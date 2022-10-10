@@ -1,8 +1,34 @@
-.special-text{
-  @include m-text($fsize:36px, $ffamily:var(--ac-font), $fcolor: var(--ac-color));
+.special-text {
+  @include m-text(
+    $fsize: 36px,
+    $ffamily: var(--ac-font),
+    $fcolor: var(--ac-color)
+  );
+  &_inverse {
+    color: var(--bg-main-color);
+  }
 }
 
-.title{
+.title {
   @include m-text($fsize: 24px);
+  margin-bottom: 14px;
   text-transform: uppercase;
+}
+
+.basic-text {
+  @include m-text;
+}
+
+.read-more {
+  @include m-text($fsize: 14px, $fcolor: var(--ac-color));
+  text-transform: capitalize;
+}
+
+.subtitle {
+  @include m-text(
+    $fsize: 24px,
+    $fcolor: var(--ac-color),
+    $ffamily: var(--ac-font)
+  );
+  margin-bottom: 18px;
 }

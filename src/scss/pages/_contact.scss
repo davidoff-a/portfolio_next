@@ -1,0 +1,68 @@
+.contact {
+  // .contact__wrapper
+  &__wrapper {
+    align-items: flex-start;
+    margin: 44px auto 0;
+    width: 720px;
+  }
+
+  // .contact__text
+  &__text {
+    height: 254px;
+    width: 297px;
+  }
+
+  // .contact__title
+  &__title {
+  }
+
+  // .contact__info
+  &__info {
+    margin-top: 30px;
+  }
+
+  // .contact__links
+  &__links {
+    margin-top: 22px;
+    width: 165px;
+    height: 26px;
+  }
+
+  // .contact__form
+  &__form {
+    width: 300px;
+    height: 400px;
+    align-items: flex-start;
+  }
+
+  // .contact__label
+  &__label {
+    text-transform: capitalize;
+  }
+
+  // .contact__input
+  &__input {
+    width: 300px;
+  }
+  &__textarea {
+    width: 300px;
+    height: 104px;
+  }
+  &__submit {
+    //justify-self: flex-end;
+  }
+}
+
+.social-menu {
+  // .social-menu__link
+  &__link {
+  }
+
+  // .social-menu__icon
+  &__icon {
+  }
+
+  // .social-menu__item
+  &__item {
+  }
+}

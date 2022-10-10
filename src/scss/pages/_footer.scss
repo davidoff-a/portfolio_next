@@ -1,0 +1,22 @@
+.footer {
+  padding: 35px 0 9px;
+  height: 197px;
+  background: var(--ac-color);
+  // .footer__menu
+  &__menu {
+    width: 484px;
+    margin: 0 auto;
+  }
+
+  // .footer__name
+  &__name {
+    margin: 14px auto 0;
+    text-align: center;
+  }
+
+  &__copyright {
+    margin-top: 45px;
+    text-align: center;
+    @include m-text($fsize: 12px, $fcolor: rgba(0, 0, 0, 0.5));
+  }
+}

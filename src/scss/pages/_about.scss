@@ -20,10 +20,10 @@
     width: 570px;
   }
 
-  // .about__descr
-  &__descr {
-    @include m-text;
-  }
+  //// .about__descr
+  //&__descr {
+  //  @include m-text;
+  //}
 
   &__block{
     margin-bottom: 50px;
@@ -34,4 +34,3 @@
   height: 94px;
   flex-wrap: wrap;
 }
-

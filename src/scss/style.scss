@@ -3,13 +3,18 @@
 @import "./abstracts/variables";
 @import "./abstracts/placeholders";
 @import "./abstracts/mixins";
-@import './base/base';
+@import "./base/base";
 @import "./components/header";
 @import "./components/menu";
 @import "./components/special-text";
 @import "./components/list";
+@import "./components/form";
+//@import "./components/list";
+//@import "./components/list";
 @import "./layouts/sliders";
 @import "./pages/person";
 @import "./pages/about";
 @import "./pages/work";
-
+@import "./pages/blog";
+@import "./pages/contact";
+@import "./pages/footer";

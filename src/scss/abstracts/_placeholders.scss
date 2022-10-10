@@ -1,5 +1,21 @@
-%text{
+%text {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+%link {
+  text-transform: uppercase;
+  position: relative;
+}
+
+%link-before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 100%;
+  min-width: 46px;
 }

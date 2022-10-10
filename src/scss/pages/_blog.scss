@@ -1,0 +1,19 @@
+.blog-slider {
+}
+
+.blog {
+  // .blog__item
+  &__item {
+    padding: 36px 23px 30px;
+    width: 275px;
+    height: 378px;
+    background: var(--bg-main-color);
+    border-radius: 20px;
+  }
+}
+
+.record {
+  &__text {
+    height: 100%;
+  }
+}

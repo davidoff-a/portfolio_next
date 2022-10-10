@@ -1,6 +1,20 @@
-@mixin m-text($fsize: 16px, $fcolor: var(--font-color), $ffamily: var(--main-font)){
+@mixin m-text(
+  $fsize: 16px,
+  $fcolor: var(--font-color),
+  $ffamily: var(--main-font)
+) {
   @extend %text;
   font-size: $fsize;
   color: $fcolor;
   font-family: $ffamily;
+}
+
+@mixin m-link($f-Color: var(--bg-main-color)) {
+  @extend %link;
+  @include m-text($fColor: $f-Color);
+}
+
+@mixin m-link-before($acColor: var(--ac-color)) {
+  @extend %link-before;
+  background-color: $acColor;
 }

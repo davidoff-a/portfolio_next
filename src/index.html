@@ -51,8 +51,10 @@
           <div class="about__block">
             <div class="title">About</div>
             <div class="special-text">Aleksey Davydoff</div>
-            <div class="about__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim quisque leo dictum quis
-              turpis. Felis eget porta sem leo ornare nunc lacus.
+            <div class="basic-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim
+              quisque leo dictum quis turpis. Felis eget porta sem leo ornare
+              nunc lacus.
             </div>
           </div>
           <div class="about__block">
@@ -70,18 +72,24 @@
             </ul>
           </div>
         </div>
-  
-        
-        </div>
+      </div>
     </section>
     <section class="work">
       <div class="container">
         <div class="title">work</div>
         <ul class="menu row work__menu">
-          <li class="menu__item"><a href="" class="menu__link menu__link_active">All</a></li>
-          <li class="menu__item"><a href="" class="menu__link">web design</a></li>
-          <li class="menu__item"><a href="" class="menu__link">digital art</a></li>
-          <li class="menu__item"><a href="" class="menu__link">pen and ink</a></li>
+          <li class="menu__item">
+            <a href="" class="menu__link menu__link_active">All</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">web design</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">digital art</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">pen and ink</a>
+          </li>
         </ul>
         <div class="slider">
           <div class="slider__wrapper work-slider">
@@ -105,13 +113,147 @@
     <section class="blog">
       <div class="container">
         <div class="title">blog</div>
+        <div class="slider">
+          <div class="slider__wrapper blog-slider row">
+            <div class="blog__item record row col">
+              <div class="subtitle">Lorem Ipsum</div>
+              <div class="basic-text left record__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus pellentesque lectus leo arcu. Auctor nulla non est
+                amet, urna a et vestibulum.
+              </div>
+              <div class="read-more">read more</div>
+            </div>
+            <div class="blog__item record row col">
+              <div class="subtitle">Lorem Ipsum</div>
+              <div class="basic-text left record__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus pellentesque lectus leo arcu. Auctor nulla non est
+                amet, urna a et vestibulum.
+              </div>
+              <div class="read-more">read more</div>
+            </div>
+            <div class="blog__item record row col">
+              <div class="subtitle">Lorem Ipsum</div>
+              <div class="basic-text left record__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus pellentesque lectus leo arcu. Auctor nulla non est
+                amet, urna a et vestibulum.
+              </div>
+              <div class="read-more">read more</div>
+            </div>
+          </div>
+          <ul class="slider__controls dots row">
+            <li class="dots__item dots__item_active"></li>
+            <li class="dots__item"></li>
+            <li class="dots__item"></li>
+          </ul>
+        </div>
       </div>
     </section>
     <section class="contact">
       <div class="container">
         <div class="title">contact</div>
+        <div class="contact__wrapper row">
+          <div class="contact__text">
+            <div class="contact__title special-text">Let's Talk</div>
+            <div class="contact__info basic-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque consequat eget nulla morbi magna enim. Ultricies
+              massa arcu ultricies quis.
+            </div>
+            <ul class="contact__links social-menu row">
+              <li class="social-menu__item">
+                <a href="https://linkedin.com" class="social-menu__link"
+                  ><img
+                    src="./assets/icons/linkedin.svg"
+                    alt="linkedin"
+                    class="social-menu__icon"
+                /></a>
+              </li>
+              <li class="social-menu__item">
+                <a href="https://github.com" class="social-menu__link"
+                  ><img
+                    src="./assets/icons/github.svg"
+                    alt="github"
+                    class="social-menu__icon"
+                /></a>
+              </li>
+              <li class="social-menu__item">
+                <a href="https://figma.com" class="social-menu__link"
+                  ><img
+                    src="./assets/icons/figma.svg"
+                    alt="figma"
+                    class="social-menu__icon"
+                /></a>
+              </li>
+              <li class="social-menu__item">
+                <a href="https://instagram.com" class="social-menu__link"
+                  ><img
+                    src="./assets/icons/instagram.svg"
+                    alt="instagram"
+                    class="social-menu__icon"
+                /></a>
+              </li>
+              <li class="social-menu__item">
+                <a href="https://behance.com" class="social-menu__link"
+                  ><img
+                    src="./assets/icons/behance.svg"
+                    alt="behance"
+                    class="social-menu__icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact__form row col">
+            <label for="name" class="contact__label basic-text">name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="contact__input basic-input"
+            />
+            <label for="email" class="contact__label basic-text">email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="contact__input basic-input"
+            />
+            <label for="message" class="contact__label basic-text"
+              >message</label
+            >
+            <textarea
+              name="message"
+              id="message"
+              class="contact__input contact__textarea basic-input"
+              rows="4"
+            ></textarea>
+            <input
+              type="submit"
+              value="Send message"
+              class="contact__submit basic-input btn"
+            />
+          </div>
+        </div>
       </div>
     </section>
-  <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__menu menu menu_inverse row">
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link_active">Home</a>
+          </li>
+          <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Work</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">contact</a></li>
+        </ul>
+        <div class="footer__name special-text special-text_inverse">
+          aleksei davydoff
+        </div>
+        <div class="footer__copyright">copyright by Louna Skylander 2022</div>
+      </div>
+    </footer>
   </body>
 </html>

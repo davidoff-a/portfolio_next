@@ -1,0 +1,19 @@
+.basic-input {
+  padding: 10px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  @include m-text;
+  &::placeholder {
+    @include m-text($fsize: 16px, $fcolor: rgba(0, 0, 0, 0.25));
+    line-height: 19px;
+  }
+}
+
+.btn {
+  @include m-text($fsize: 14px, $fcolor: var(--bg-main-color));
+  padding: 4px 12px;
+  margin-left: auto;
+  height: 33px;
+  background: var(--ac-color);
+}
