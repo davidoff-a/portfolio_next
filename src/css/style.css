@@ -75,7 +75,7 @@ a {
   --ac-font: "Permanent marker" ;
 }
 
-.footer__copyright, .person__job-title, .btn, .basic-input::placeholder, .basic-input, .list__item, .subtitle, .read-more, .basic-text, .title, .special-text, .menu__link {
+.footer__copyright, .person__job-title, .btn, .basic-input::placeholder, .basic-input, .list__item, .heading__title, .subtitle, .read-more, .basic-text, .special-text, .menu__link {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -183,14 +183,6 @@ section:nth-child(2n+1) {
   color: var(--bg-main-color);
 }
 
-.title {
-  font-size: 24px;
-  color: var(--font-color);
-  font-family: var(--main-font);
-  margin-bottom: 14px;
-  text-transform: uppercase;
-}
-
 .basic-text {
   font-size: 16px;
   color: var(--font-color);
@@ -209,6 +201,27 @@ section:nth-child(2n+1) {
   color: var(--ac-color);
   font-family: var(--ac-font);
   margin-bottom: 18px;
+}
+
+.heading {
+  margin: 0 auto 14px;
+  width: 214px;
+}
+.heading__title {
+  font-size: 24px;
+  color: var(--font-color);
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  position: relative;
+}
+.heading_start {
+  margin: 0 auto 14px 0;
+}
+.heading__stripe {
+  margin-left: 30px;
+  width: 70px;
+  height: 3px;
+  background: var(--font-color);
 }
 
 .list__item {
