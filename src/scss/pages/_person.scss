@@ -24,14 +24,43 @@
     object-fit: cover;
   }
 
-  .person__name{
+  &__name {
     margin-top: 24px;
   }
+
   // .person__job-title
   &__job-title {
     @include m-text($fsize: 24px);
     margin-top: 4px;
     text-align: center;
+  }
 
+  // .person__side-menu
+  &__side-menu {
+    width: 25px;
+    height: 482px;
+  }
+
+  &__social-menu {
+    width: 25px;
+    height: 255px;
+  }
+
+  .side-menu {
+    // .side-menu__label
+    &__label {
+      @include m-text($fsize: 12px, $fcolor: var(--font-color));
+      width: 115px;
+      height: 18px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      transform: rotate(-90deg);
+    }
+    &__stripe {
+      width: 70px;
+      height: 2px;
+      background: var(--font-color);
+      transform: rotate(-90deg);
+    }
   }
 }

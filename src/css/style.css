@@ -75,7 +75,7 @@ a {
   --ac-font: "Permanent marker" ;
 }
 
-.footer__copyright, .person__job-title, .btn, .basic-input::placeholder, .basic-input, .list__item, .heading__title, .subtitle, .read-more, .basic-text, .special-text, .menu__link {
+.footer__copyright, .person .side-menu__label, .person__job-title, .btn, .basic-input::placeholder, .basic-input, .list__item, .heading__title, .subtitle, .read-more, .basic-text, .special-text, .menu__link {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -314,7 +314,7 @@ section:nth-child(2n+1) {
   border: none;
   object-fit: cover;
 }
-.person .person__name {
+.person__name {
   margin-top: 24px;
 }
 .person__job-title {
@@ -323,6 +323,30 @@ section:nth-child(2n+1) {
   font-family: var(--main-font);
   margin-top: 4px;
   text-align: center;
+}
+.person__side-menu {
+  width: 25px;
+  height: 482px;
+}
+.person__social-menu {
+  width: 25px;
+  height: 255px;
+}
+.person .side-menu__label {
+  font-size: 12px;
+  color: var(--font-color);
+  font-family: var(--main-font);
+  width: 115px;
+  height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transform: rotate(-90deg);
+}
+.person .side-menu__stripe {
+  width: 70px;
+  height: 2px;
+  background: var(--font-color);
+  transform: rotate(-90deg);
 }
 
 .about {
