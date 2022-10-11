@@ -329,8 +329,13 @@ section:nth-child(2n+1) {
   height: 482px;
 }
 .person__social-menu {
-  width: 25px;
-  height: 255px;
+  width: 255px;
+  height: 25px;
+}
+.person .side-menu {
+  width: 482px;
+  height: 25px;
+  transform: rotate(90deg);
 }
 .person .side-menu__label {
   font-size: 12px;
@@ -340,13 +345,15 @@ section:nth-child(2n+1) {
   height: 18px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  transform: rotate(-90deg);
+  transform: rotate(180deg);
 }
 .person .side-menu__stripe {
   width: 70px;
   height: 2px;
   background: var(--font-color);
-  transform: rotate(-90deg);
+}
+.person .side-menu .social-menu__icon {
+  transform: rotate(-90deg) translate(50%, -50%);
 }
 
 .about {
